@@ -1,0 +1,70 @@
+body {
+    background-image: url('pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.th.pizza-header {
+    font-family: 'Arial', sans-serif;
+    color: red;
+}
+th {
+    background-color: #4e4343;
+    color: #faf9f9;
+    padding: 50px;
+    margin: 20px;
+    font-size: larger;
+    border-width: 5px;
+    border-color: rgb(171, 7, 7);
+}
+input[type="radio"] + label {
+    font-style: italic;
+}
+tr:nth-child(3) td,
+tr:nth-child(7) td,
+tr:nth-child(5) td {
+    background-color: #ff0000; 
+    color: #fff; 
+}
+tr:nth-child(2) td,
+tr:nth-child(6) td,
+tr:nth-child(4) td{
+    background-color: #4e4343;
+    color: whitesmoke;
+}
+input[type="submit"] {
+    background-color: grey; 
+    color: white; 
+    border: 3px inset #161515; 
+    cursor: pointer;
+}
+textarea {
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 5px;
+}
+@keyframes rotate-shine {
+    0% {
+        opacity: 0.2;
+        transform: rotate(0deg);
+    }
+    20% {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    80% {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    100% {
+        opacity: 0.2;
+        transform: rotate(0deg);
+    }
+}
+.logo-header img {
+    width: 100px; 
+    height: 100px; 
+    animation: rotate-shine 8s linear infinite; 
+    margin-right: 10px;
+    position: left;
+}
