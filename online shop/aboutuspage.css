@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+.first-container{
+    padding: 30px;
+    display: flex;
+    justify-items: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.first-container img{
+    float: right;
+    width: 400px; 
+    height: 500px; 
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.first-container p{
+    text-align: justify;
+    line-height: 1.6;
+    border: 1px solid #ed6464; 
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+.header {
+    min-height: 5px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 9%;
+}
+.nav-links ul {
+    list-style: none;
+    display: inline-block;
+}
+nav img {
+    height: 170px;
+    width: 180px;
+    padding: 0%;
+}
+.icons {
+    margin-left: 0;
+    margin-right: 20px;
+    width: auto; 
+}
+
+.icons i {
+    margin-right: 10px;
+}
+.icons a {
+    color: black;
+    font-size: medium;
+}
+
+.nav-links ul li {
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer {
+    background-color: #008B8B;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info, .social-icons {
+    flex-basis: 48%;
+    text-align: left; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon img {
+    width: 30px; 
+    height: auto;
+}
