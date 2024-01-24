@@ -33,16 +33,16 @@ export class DriverComponent implements OnInit {
   }
   // so ngStyle da se proveri neshto za drivers i posle da se napravi underline ili da se oboi ili neshto
   getColor() {
-    if(this.vozac.points > 300) {
-      return 'blue';
+    if(this.vozac.id % 2 == 0) {
+      return 'black';
     }
-    return 'red';
+    return 'blue';
   }
   getDecoration() {
-    if(this.vozac.points <=300) {
-      return 'line-through';
+    if(this.vozac.category == "ADVANCED") {
+      return 'underline';
     }
-    return 'underline'
+    return 'none'
   }
 
   klik() {
