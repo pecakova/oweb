@@ -1,0 +1,41 @@
+<header class="header">
+  <nav>
+      <div class="nav-links">
+          <ul>
+              <li><a routerLink="">Home</a></li>
+              <li><a routerLink="menu">Menu</a></li>
+          </ul>
+      </div>
+      <div class="logo">
+          <a routerLink=""><img src="../assets/images/bakery.png" alt="bakery_logo"></a>
+      </div>
+      <div class="nav-links">
+          <ul>
+              <li><a routerLink="about">Our Story</a></li>
+              <li><a routerLink="contact">Contact</a></li>
+          </ul>
+      </div>
+  </nav>
+  <div class="icons">
+      <i class="bx bxs-user"><a routerLink="login">Login</a></i>
+  </div>
+</header>
+<section class="content">
+  <router-outlet> </router-outlet>
+</section>
+<footer class="footer">
+  <div class="footer-content">
+      <div class="contact-info">
+           <h3>Contact Information</h3>
+           <p>Email: yourbakery&#64;gmail.com</p>
+           <p>Phone: +389 71 222 222</p>
+           <p>Address: 123 Main St, Skopje</p>
+      </div>
+      <div class="social-icons">
+           <h3>Connect with Us</h3>
+           <a href="#" class="icon"><img src="../assets/images/fb_icon.jpg" alt="Facebook"></a>
+           <a href="#" class="icon"><img src="../assets/images/insta_icon.jpg" alt="Instagram"></a>
+           <a href="#" class="icon"><img src="../assets/images/pinterest_icon.jpg" alt="Pinterest"></a>
+      </div>
+  </div>
+</footer>
